@@ -6,7 +6,7 @@ from copy import deepcopy
 import pandas as pd
 import numpy as np
 
-from utils import merge_dataframes
+from src.utils import merge_dataframes
 
 class TimeSeries():
     """
