@@ -1,5 +1,9 @@
 # Product Dashboard
 
+<p align="center">
+  <img width="460" height="300" src="src/product_dashboard.gif">
+</p>
+
 [Product Dashboard](github.com/kludex/product_dashboard) is a
 [dash](https://dash.plot.ly/) application created to analyze different products.
 This analysis process is made based on forecasting predictions. Also, for each
