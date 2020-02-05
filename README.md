@@ -8,8 +8,7 @@ product we have the best, the worst and the base possible prediction results.
 ## Installation
 
 To be able to run this project, we recommend to use a
-[conda](https://docs.conda.io/en/latest/) environment. If you prefer to use a
-different environment manager, there's a `requirements.txt` available.
+[conda](https://docs.conda.io/en/latest/).
 
 First, we're gonna clone the repository, then create the environment.
 ```
