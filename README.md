@@ -22,9 +22,10 @@ cd product_dashboard/
 conda env create -f environment.yml
 ```
 
-Check if the environment was created:
+Check if the environment was created and activate:
 ```
 conda env list
+conda activate dashboard
 ```
 
 ## Usage
