@@ -39,6 +39,9 @@ Then, go to your favorite browser and paste the following link
 - [ ] Option dropdown width adjust.
 - [ ] Block outlier interval if there's no change in the plot values.
 - [ ] Add the option to download a csv file.
+- [ ] Default outlier should be the one that makes the curve more friendly to
+  the human eyes.
+- [ ] Tests.
 
 ## Contributing
 
