@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 from pathlib import Path
-from datetime import datetime
+
+import pandas as pd
 
 def project_root() -> Path:
     """
@@ -12,8 +13,17 @@ def project_root() -> Path:
     """
     return Path(__file__).parent.parent
 
-def date_parser(date):
-    return datetime.strptime(date, '%Y-%m-%d')
+def merge_dataframes(dataframe: pd.DataFrame, file_dataframe: pd.DataFrame) -> pd.DataFrame:
+    """
+    Merges two dataframes.
 
-def filename_from(path):
-    return path.split('/')[-1]
+    Args:
+        dataframe (pd.DataFrame): main dataframe.
+        file_dataframe (pd.DataFrame): dataframe to append.
+
+    Returns:
+        pd.DataFrame: merged dataframe.
+    """
+    if dataframe is not None:
+        return dataframe.merge(file_dataframe, on='date', how='outer')
+    return file_dataframe
