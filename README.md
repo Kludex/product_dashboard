@@ -56,6 +56,7 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-This code was made as part of the [Funcional Corp] technical challenge. If
-requested by them, this repository will be turn to private. If not, I will add a
-open source license.
+This code was made as part of the [Funcional
+Corp](https://www.funcionalcorp.com.br/) technical challenge. If requested by
+them, this repository will be turn to private. If not, I will add a open source
+license.
