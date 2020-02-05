@@ -18,16 +18,16 @@ class TimeSeries():
     base = 'base_scenario'
     readable = {
         'csv': pd.read_csv,
-        'xlsx': pd.read_excel
+        'xlsx': pd.read_excel,
     }
 
     @property
-    def time_series(self) -> list:
+    def time_series(self) -> pd.DataFrame:
         """
         Get the time series.
 
         Returns:
-            list: time series which represents scenarios.
+            pd.DataFrame: time series which represents scenarios.
         """
         return self._time_series
 
