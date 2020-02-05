@@ -130,3 +130,6 @@ dmypy.json
 
 # vscode
 .vscode/
+
+# downlaod excel file
+download.xlsx
