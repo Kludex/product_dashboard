@@ -41,6 +41,7 @@ Then, go to your favorite browser and paste the following link
 - [ ] Default outlier should be the one that makes the curve more friendly to
   the human eyes.
 - [ ] Tests.
+- [ ] Use linter on the `app.py` file. It was not added because it has a HTML structure inside which breaks some linter rules that we don't want to ignore, as line limit.
 
 ## Contributing
 
